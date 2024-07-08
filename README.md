@@ -1,6 +1,6 @@
 # STEP
 
-This is the repository for the paper _Strengthening Structural Inductive Biases by Pre-training to Perform Syntactic Transformations_, in which we present STEP (Syntactic Transformation Enhanced Pre-training), a new intermediate pre-training procedure.
+This is the repository for the paper [Strengthening Structural Inductive Biases by Pre-training to Perform Syntactic Transformations](https://arxiv.org/abs/2407.04543), in which we present STEP (Syntactic Transformation Enhanced Pre-training), a new intermediate pre-training procedure.
 
 # Fine-tuning STEP
 The STEP model is based on T5-Base and can be fine-tuned as follows:
