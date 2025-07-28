@@ -101,7 +101,7 @@ python config_evaluator.py configs/finetune/step_chunking.jsonnet
 **Fine-tuning experiments with Hugging Face version of STEP**
 
 If you want to fine-tune the STEP model we've uploaded to Hugging Face (rather than your own local model), the fine-tuning config files have to be slightly adjusted: the part that describes the model in the config has to look like this (see `configs/finetune/step_chunking_hf.jsonnet` for an example and compare with `configs/finetune/step_chunking.jsonnet`):
-```json
+```
       model: {f: "transformers.AutoModelForSeq2SeqLM.from_pretrained",
                 pretrained_model_name_or_path: "namednil/STEP",
                 trust_remote_code: true
